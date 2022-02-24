@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    text-align: right;
+}
+.top ul{
+    display: inline-flex;
+}
+.top ul a{
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color:black;
+}
+.top ul a:hover{
+    text-decoration: underline;
+}
+.go{
+    color: white;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    display: block;
+    height: 90px;
+    position: relative;
+}
+.search{
+    position: relative;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 400px;
+    height: 40px;
+    border: 1px solid ;
+    margin-top: 10px;
+}
+.but1{
+    margin-left: 550px;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: grey;
+}
+.but2{
+    color: grey;
+}
+.footer{
+    background-color: grey;
+    color: white;
+    position: relative;
+    margin-top: 230px;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+}
+
+.footer a{
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    padding-left: 70px;
+    padding-top: 0px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    margin-top: 5px;
+    background-color: grey;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
